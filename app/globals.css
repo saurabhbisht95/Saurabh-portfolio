@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    scroll-behavior: smooth;
+    
+}
+body{
+    overflow-x: hidden;
+}
+
+.nextjs-toast{
+  display: none !important;
+}
+
+html {
+  --scrollbar-track: #f1f1f1;
+  --scrollbar-thumb-hover: #a1a1a1;
+}
+
+/* Dark Theme Scrollbar */
+html.dark {
+  --scrollbar-track: #1e1e1e;
+  --scrollbar-thumb-hover: #5a5a5a;
+}
+
+/* Webkit Scrollbar (Chrome, Safari, newer Edge) */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/90;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary;
+}
