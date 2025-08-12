@@ -51,7 +51,7 @@ export const aboutData = {
   stats: [
     { value: "2K+", label: "Websites Designed", icon: "FaLaptopCode" },
     { value: "5+", label: "Years of Experience", icon: "FaCalendarAlt" },
-    { value: "4K", label: "Completed Projects", icon: "FaCheckCircle" },
+    { value: "10+", label: "Completed Projects", icon: "FaCheckCircle" },
   ],
   skills: [
     { name: "HTML5", icon: "FaHtml5", percentage: 95 },
@@ -62,10 +62,12 @@ export const aboutData = {
   circularSkills: [
     { name: "MySQL", icon: "GrMysql", percentage: 85 },
     { name: "MongoDB", icon: "SiMongodb", percentage: 80 },
+    { name: "Node.js", icon: "FaNodeJs", percentage: 90 },
   ],
   progressSkills: [
-    { name: "Node.js", icon: "FaNodeJs", percentage: 90 },
-    { name: "PostgreSQL", icon: "SiPostgresql", percentage: 75 },
+    { name: "Git", icon: "FaGit", percentage: 80 },
+    { name: "Github", icon: "FaGithub", percentage: 95 },
+    { name: "Postman", icon: "SiPostman", percentage: 85 },
   ],
 };
 
@@ -74,23 +76,15 @@ export const careerData = {
     {
       title: "Full Stack Web Developer",
       company: "Dabhand Solutions Pvt.",
-      period: { start: "April, 2025", end: "Current" },
+      period: { start: "April, 2025", end: "Present" },
       description:
         "Led the development of machine learning algorithms and data processing pipelines. Collaborated with cross-functional teams to implement scalable solutions for complex data challenges. Mentored junior developers and contributed to open-source projects.",
       icon: "FaPython",
     },
     {
-      title: "Database Developer",
-      company: "Freshworks Inc.",
-      period: { start: "Oct, 2012", end: "Dec, 2018" },
-      description:
-        "Designed and optimized database architectures for enterprise applications. Implemented data migration strategies and performance tuning techniques. Created robust backup and recovery systems ensuring data integrity and security.",
-      icon: "FaDatabase",
-    },
-    {
-      title: "Full Stack Web Developer",
-      company: "Integrity Software, Inc.",
-      period: { start: "Oct, 2010", end: "Dec, 2012" },
+      title: "Web Developer",
+      company: "Dezka Technical Solutions",
+      period: { start: "Oct, 2023", end: "Mar, 2024" },
       description:
         "Developed responsive web applications using modern JavaScript frameworks. Built RESTful APIs and integrated third-party services. Implemented CI/CD pipelines and automated testing strategies to ensure code quality.",
       icon: "FaCode",
@@ -143,12 +137,12 @@ export const projectsData = [
     id: 3,
     title: "Portfolio Website",
     category: "Web Design",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/portfolio.png?height=300&width=400",
     description:
       "A responsive portfolio website showcasing projects and skills with a modern design.",
     technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
-    link: "https://example.com/portfolio",
-    github: "https://github.com/username/portfolio",
+    link: "https://github.com/saurabhbisht95/Saurabh-portfolio",
+    github: "https://github.com/saurabhbisht95/Saurabh-portfolio",
   },
   {
     id: 4,
@@ -174,14 +168,14 @@ export const projectsData = [
   },
   {
     id: 6,
-    title: "Fitness Tracker",
-    category: "Mobile App",
-    image: "/placeholder.svg?height=300&width=400",
+    title: "E Commerce Store Frontend",
+    category: "Web Design",
+    image: "/ecommerce-frontend.png?height=300&width=400",
     description:
-      "A mobile application for tracking workouts, nutrition, and fitness progress.",
-    technologies: ["React Native", "Firebase", "Redux"],
-    link: "https://example.com/fitness",
-    github: "https://github.com/username/fitness",
+      "A frontend of e commerce website, search, and sort products.",
+    technologies: ["React", "Tailwind", "Context API"],
+    link: "https://github.com/saurabhbisht95/E-Commerce-Frontend",
+    github: "https://e-commerce-bysaurabh.netlify.app/",
   },
 ];
 

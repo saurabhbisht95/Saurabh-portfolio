@@ -8,8 +8,9 @@ import {
   FaLaptopCode,
   FaCalendarAlt,
   FaCheckCircle,
+  FaGithub,
 } from "react-icons/fa";
-import { SiPostgresql, SiMongodb } from "react-icons/si";
+import { SiPostgresql, SiMongodb,SiPostman } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { aboutData } from "../constants";
 
@@ -26,6 +27,8 @@ const iconMap = {
   SiPostgresql,
   SiMongodb,
   GrMysql,
+  FaGithub,
+  SiPostman
 };
 
 const AboutUs5 = () => {
