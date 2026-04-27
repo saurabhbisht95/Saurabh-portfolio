@@ -17,7 +17,6 @@ const navItems = [
   { path: "#about", icon: <FaRegUserCircle />, label: "ABOUT" },
   { path: "#career", icon: <ImProfile />, label: "CAREER" },
   { path: "#projects", icon: <FaRegFolderOpen />, label: "PROJECTS" },
-  // { path: "#blogs", icon: <FaRss />, label: "BLOGS" },
   { path: "#contact", icon: <FaPaperPlane />, label: "CONTACT" },
 ];
 
